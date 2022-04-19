@@ -19,10 +19,9 @@ meta_image: ""
       <thead>
         <tr>
           <th>URL</th>
-          <th>Accessibility</th>
-          <th>Best Practices</th>
-          <th>Performance</th>
-          <th>SEO</th>
+          <th v-for="(p, idx) in props">
+            {{ prop.detail[p] }}
+          </td>
           <th>Score</th>
         </tr>
       </thead>
