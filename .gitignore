@@ -1,5 +1,4 @@
 # build artefacts
-dist
 src/includes/min/
 
 # tests reports
