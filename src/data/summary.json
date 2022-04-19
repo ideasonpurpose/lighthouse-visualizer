@@ -1,0 +1,268 @@
+[
+  {
+    "url": "https://client.ideasonpurpose.com/fnih/internalreview/",
+    "name": "client_ideasonpurpose_com_fnih_internalreview_",
+    "file": "client_ideasonpurpose_com_fnih_internalreview_.report.json",
+    "html": "client_ideasonpurpose_com_fnih_internalreview_.report.html",
+    "score": 0.87,
+    "detail": {
+      "performance": 0.99,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.45
+    }
+  },
+  {
+    "url": "https://client.ideasonpurpose.com/fnih/internalreview/perspectivefromourleaders/",
+    "name": "client_ideasonpurpose_com_fnih_internalreview_perspectivefromourleaders_",
+    "file": "client_ideasonpurpose_com_fnih_internalreview_perspectivefromourleaders_.report.json",
+    "html": "client_ideasonpurpose_com_fnih_internalreview_perspectivefromourleaders_.report.html",
+    "score": 0.86,
+    "detail": {
+      "performance": 0.98,
+      "accessibility": 1,
+      "best-practices": 0.87,
+      "seo": 1,
+      "pwa": 0.45
+    }
+  },
+  {
+    "url": "https://client.ideasonpurpose.com/fnih/internalreview/board-of-directors/",
+    "name": "client_ideasonpurpose_com_fnih_internalreview_board-of-directors_",
+    "file": "client_ideasonpurpose_com_fnih_internalreview_board-of-directors_.report.json",
+    "html": "client_ideasonpurpose_com_fnih_internalreview_board-of-directors_.report.html",
+    "score": 0.87,
+    "detail": {
+      "performance": 0.98,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.45
+    }
+  },
+  {
+    "url": "https://client.ideasonpurpose.com/fnih/internalreview/donors/",
+    "name": "client_ideasonpurpose_com_fnih_internalreview_donors_",
+    "file": "client_ideasonpurpose_com_fnih_internalreview_donors_.report.json",
+    "html": "client_ideasonpurpose_com_fnih_internalreview_donors_.report.html",
+    "score": 0.87,
+    "detail": {
+      "performance": 0.95,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.45
+    }
+  },
+  {
+    "url": "https://client.ideasonpurpose.com/fnih/internalreview/financials/",
+    "name": "client_ideasonpurpose_com_fnih_internalreview_financials_",
+    "file": "client_ideasonpurpose_com_fnih_internalreview_financials_.report.json",
+    "html": "client_ideasonpurpose_com_fnih_internalreview_financials_.report.html",
+    "score": 0.87,
+    "detail": {
+      "performance": 0.99,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.45
+    }
+  },
+  {
+    "url": "https://client.ideasonpurpose.com/fnih/internalreview/addressingcovid/",
+    "name": "client_ideasonpurpose_com_fnih_internalreview_addressingcovid_",
+    "file": "client_ideasonpurpose_com_fnih_internalreview_addressingcovid_.report.json",
+    "html": "client_ideasonpurpose_com_fnih_internalreview_addressingcovid_.report.html",
+    "score": 0.87,
+    "detail": {
+      "performance": 0.95,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.45
+    }
+  },
+  {
+    "url": "https://client.ideasonpurpose.com/fnih/internalreview/addressingcovid/combatingthepandemic/",
+    "name": "client_ideasonpurpose_com_fnih_internalreview_addressingcovid_combatingthepandemic_",
+    "file": "client_ideasonpurpose_com_fnih_internalreview_addressingcovid_combatingthepandemic_.report.json",
+    "html": "client_ideasonpurpose_com_fnih_internalreview_addressingcovid_combatingthepandemic_.report.html",
+    "score": 0.87,
+    "detail": {
+      "performance": 0.98,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.45
+    }
+  },
+  {
+    "url": "https://client.ideasonpurpose.com/fnih/internalreview/addressingcovid/traceingcovidvariants/",
+    "name": "client_ideasonpurpose_com_fnih_internalreview_addressingcovid_traceingcovidvariants_",
+    "file": "client_ideasonpurpose_com_fnih_internalreview_addressingcovid_traceingcovidvariants_.report.json",
+    "html": "client_ideasonpurpose_com_fnih_internalreview_addressingcovid_traceingcovidvariants_.report.html",
+    "score": 0.87,
+    "detail": {
+      "performance": 0.98,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.45
+    }
+  },
+  {
+    "url": "https://client.ideasonpurpose.com/fnih/internalreview/advancingglobalhealth/",
+    "name": "client_ideasonpurpose_com_fnih_internalreview_advancingglobalhealth_",
+    "file": "client_ideasonpurpose_com_fnih_internalreview_advancingglobalhealth_.report.json",
+    "html": "client_ideasonpurpose_com_fnih_internalreview_advancingglobalhealth_.report.html",
+    "score": 0.87,
+    "detail": {
+      "performance": 0.96,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.45
+    }
+  },
+  {
+    "url": "https://client.ideasonpurpose.com/fnih/internalreview/advancingglobalhealth/partneringwithWHO/",
+    "name": "client_ideasonpurpose_com_fnih_internalreview_advancingglobalhealth_partneringwithWHO_",
+    "file": "client_ideasonpurpose_com_fnih_internalreview_advancingglobalhealth_partneringwithWHO_.report.json",
+    "html": "client_ideasonpurpose_com_fnih_internalreview_advancingglobalhealth_partneringwithWHO_.report.html",
+    "score": 0.87,
+    "detail": {
+      "performance": 0.98,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.45
+    }
+  },
+  {
+    "url": "https://client.ideasonpurpose.com/fnih/internalreview/advancingglobalhealth/vaccines/",
+    "name": "client_ideasonpurpose_com_fnih_internalreview_advancingglobalhealth_vaccines_",
+    "file": "client_ideasonpurpose_com_fnih_internalreview_advancingglobalhealth_vaccines_.report.json",
+    "html": "client_ideasonpurpose_com_fnih_internalreview_advancingglobalhealth_vaccines_.report.html",
+    "score": 0.87,
+    "detail": {
+      "performance": 0.97,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.45
+    }
+  },
+  {
+    "url": "https://client.ideasonpurpose.com/fnih/internalreview/advancingglobalhealth/tacklingthethorniestissues-together/",
+    "name": "client_ideasonpurpose_com_fnih_internalreview_advancingglobalhealth_tacklingthethorniestissues-toget_56eb10b",
+    "file": "client_ideasonpurpose_com_fnih_internalreview_advancingglobalhealth_tacklingthethorniestissues-toget_56eb10b.report.json",
+    "html": "client_ideasonpurpose_com_fnih_internalreview_advancingglobalhealth_tacklingthethorniestissues-toget_56eb10b.report.html",
+    "score": 0.87,
+    "detail": {
+      "performance": 0.97,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.45
+    }
+  },
+  {
+    "url": "https://client.ideasonpurpose.com/fnih/internalreview/recognizingexcellence/",
+    "name": "client_ideasonpurpose_com_fnih_internalreview_recognizingexcellence_",
+    "file": "client_ideasonpurpose_com_fnih_internalreview_recognizingexcellence_.report.json",
+    "html": "client_ideasonpurpose_com_fnih_internalreview_recognizingexcellence_.report.html",
+    "score": 0.87,
+    "detail": {
+      "performance": 0.99,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.45
+    }
+  },
+  {
+    "url": "https://client.ideasonpurpose.com/fnih/internalreview/deliveringimpact/",
+    "name": "client_ideasonpurpose_com_fnih_internalreview_deliveringimpact_",
+    "file": "client_ideasonpurpose_com_fnih_internalreview_deliveringimpact_.report.json",
+    "html": "client_ideasonpurpose_com_fnih_internalreview_deliveringimpact_.report.html",
+    "score": 0.87,
+    "detail": {
+      "performance": 0.96,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.45
+    }
+  },
+  {
+    "url": "https://client.ideasonpurpose.com/fnih/internalreview/deliveringimpact/nimble/",
+    "name": "client_ideasonpurpose_com_fnih_internalreview_deliveringimpact_nimble_",
+    "file": "client_ideasonpurpose_com_fnih_internalreview_deliveringimpact_nimble_.report.json",
+    "html": "client_ideasonpurpose_com_fnih_internalreview_deliveringimpact_nimble_.report.html",
+    "score": 0.87,
+    "detail": {
+      "performance": 0.96,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.45
+    }
+  },
+  {
+    "url": "https://client.ideasonpurpose.com/fnih/internalreview/deliveringimpact/pact/",
+    "name": "client_ideasonpurpose_com_fnih_internalreview_deliveringimpact_pact_",
+    "file": "client_ideasonpurpose_com_fnih_internalreview_deliveringimpact_pact_.report.json",
+    "html": "client_ideasonpurpose_com_fnih_internalreview_deliveringimpact_pact_.report.html",
+    "score": 0.87,
+    "detail": {
+      "performance": 0.97,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.45
+    }
+  },
+  {
+    "url": "https://client.ideasonpurpose.com/fnih/internalreview/deliveringimpact/uc/",
+    "name": "client_ideasonpurpose_com_fnih_internalreview_deliveringimpact_uc_",
+    "file": "client_ideasonpurpose_com_fnih_internalreview_deliveringimpact_uc_.report.json",
+    "html": "client_ideasonpurpose_com_fnih_internalreview_deliveringimpact_uc_.report.html",
+    "score": 0.87,
+    "detail": {
+      "performance": 0.95,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.45
+    }
+  },
+  {
+    "url": "https://client.ideasonpurpose.com/fnih/internalreview/acceleratingnewtreatments/partnerships/thebespokegenetherapyconsortium/",
+    "name": "client_ideasonpurpose_com_fnih_internalreview_acceleratingnewtreatments_partnerships_thebespokegenet_beeaeba",
+    "file": "client_ideasonpurpose_com_fnih_internalreview_acceleratingnewtreatments_partnerships_thebespokegenet_beeaeba.report.json",
+    "html": "client_ideasonpurpose_com_fnih_internalreview_acceleratingnewtreatments_partnerships_thebespokegenet_beeaeba.report.html",
+    "score": 0.87,
+    "detail": {
+      "performance": 0.96,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.45
+    }
+  },
+  {
+    "url": "https://client.ideasonpurpose.com/fnih/internalreview/acceleratingnewtreatments/",
+    "name": "client_ideasonpurpose_com_fnih_internalreview_acceleratingnewtreatments_",
+    "file": "client_ideasonpurpose_com_fnih_internalreview_acceleratingnewtreatments_.report.json",
+    "html": "client_ideasonpurpose_com_fnih_internalreview_acceleratingnewtreatments_.report.html",
+    "score": 0.87,
+    "detail": {
+      "performance": 0.95,
+      "accessibility": 1,
+      "best-practices": 0.93,
+      "seo": 1,
+      "pwa": 0.45
+    }
+  }
+]

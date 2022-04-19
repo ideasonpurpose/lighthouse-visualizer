@@ -1,0 +1,70 @@
+@each $breakpoint, $size in $site-breakpoints {
+  @include mq($breakpoint) {
+    $index: index($site-breakpoints, $breakpoint $size);
+
+    @for $i from -1 through 30 {
+      $val: $i * 4;
+
+      // ignore first breakpoint class, e.g. .col instead of .col-sm
+      $breakpointClassName: "";
+      @if ($index > 1) {
+        $breakpointClassName: "#{$breakpoint}\\:";
+      }
+
+      $value: #{$val}px;
+
+      @if ($i == -1) {
+        $val: auto;
+        $value: auto;
+      }
+
+      /**
+      * Responsive 8pt margins
+      */
+
+      .#{$breakpointClassName}mx-#{$val} {
+        margin: $value;
+      }
+
+      .#{$breakpointClassName}mt-#{$val} {
+        margin-top: $value;
+      }
+
+      .#{$breakpointClassName}mr-#{$val} {
+        margin-right: $value;
+      }
+
+      .#{$breakpointClassName}mb-#{$val} {
+        margin-bottom: $value;
+      }
+
+      .#{$breakpointClassName}ml-#{$val} {
+        margin-left: $value;
+      }
+
+      /**
+      * Responsive 8pt paddings
+      */
+
+      .#{$breakpointClassName}px-#{$val} {
+        padding: $value;
+      }
+
+      .#{$breakpointClassName}pt-#{$val} {
+        padding-top: $value;
+      }
+
+      .#{$breakpointClassName}pr-#{$val} {
+        padding-right: $value;
+      }
+
+      .#{$breakpointClassName}pb-#{$val} {
+        padding-bottom: $value;
+      }
+
+      .#{$breakpointClassName}pl-#{$val} {
+        padding-left: $value;
+      }
+    }
+  }
+}

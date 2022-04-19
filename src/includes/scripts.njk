@@ -1,0 +1,7 @@
+{%- if global.environment == "production" -%}
+  {# Production-only scripts (client scripts, minified bundles) #}
+  <script>{%- include "min/bundle.js" -%}</script>
+{%- else %}
+  {# Dev-only scripts, e.g. unminified scripts #}
+  <script src="{{ '/assets/js/bundle.js' | url }}?{{ global.buildtime }}"></script>
+{%- endif -%}

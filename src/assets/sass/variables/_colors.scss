@@ -1,0 +1,21 @@
+/**
+ * Colors
+ */
+
+$white: #fff;
+$black: #000;
+
+$colorPalette: (
+  "white": $white,
+  "black": $black,
+);
+
+@each $name, $color in $colorPalette {
+  .color-#{$name} {
+    color: $color;
+  }
+
+  .bg-#{$name} {
+    background-color: $color;
+  }
+}

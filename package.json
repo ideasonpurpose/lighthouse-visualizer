@@ -1,0 +1,64 @@
+{
+  "name": "iop-11ty",
+  "version": "0.0.0",
+  "private": true,
+  "description": "11ty-based local development environment for static website projects",
+  "license": "MIT",
+  "author": "Ideas On Purpose (https://www.ideasonpurpose.com/)",
+  "contributors": [
+    "Codrin Pavel <codrin@ideasonpurpose.com>"
+  ],
+  "scripts": {
+    "watch:sass": "sass --embed-sources --watch src/assets/sass:dist/assets/css",
+    "build:sass": "npm-run-all cssbuild:sass cssbuild:postcss",
+    "cssbuild:sass": "sass --no-source-map src/assets/sass:src/includes/min/",
+    "cssbuild:postcss": "postcss --no-map src/includes/min/main.css -u autoprefixer cssnano -r",
+    "watch:js": "watchify --debug -t [ babelify --presets [ @babel/preset-env ] ] src/assets/js/main.js -o dist/assets/js/bundle.js",
+    "build:js": "browserify src/assets/js/main.js -t [ babelify --presets [ @babel/preset-env ] ] | uglifyjs -cm > src/includes/min/bundle.js",
+    "watch:eleventy": "eleventy --serve --config=eleventy.config.js",
+    "build:eleventy": "eleventy --config=eleventy.config.js",
+    "clean:dist": "del-cli dist",
+    "mkdir:js": "make-dir dist/assets/js",
+    "mkdir:min": "make-dir src/includes/min",
+    "start": "npm-run-all clean:dist mkdir:js --parallel watch:*",
+    "build": "cross-env ELEVENTY_ENV=production npm-run-all mkdir:min clean:dist build:*",
+    "build:img": "sharp -i dist/assets/img/**/*.* -o {dir} --withoutEnlargement true --fit inside resize 3840 9999 --optimize true -q 80 -p true -m false",
+    "lighthouse": "cross-env ELEVENTY_ENV=production node 11ty/tests/lighthouse.js"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 2%",
+    "IE 11"
+  ],
+  "devDependencies": {
+    "@11ty/eleventy": "^v0.12.1",
+    "@11ty/eleventy-img": "^0.10.0",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@fullhuman/postcss-purgecss": "^4.0.2",
+    "autoprefixer": "^10.3.7",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cross-env": "^7.0.2",
+    "cssnano": "^5.0.8",
+    "del-cli": "^4.0.1",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "lighthouse-batch": "^8.1.1",
+    "make-dir-cli": "^3.0.0",
+    "npm-run-all": "^4.1.5",
+    "path": "^0.12.7",
+    "postcss": "^8.1.10",
+    "postcss-cli": "^9.0.1",
+    "purgecss": "^4.0.2",
+    "sass": "^1.29.0",
+    "sharp-cli": "^1.14.1",
+    "uglify-js": "^3.11.6",
+    "watchify": "^4.0.0",
+    "xml2json": "^0.12.0"
+  },
+  "dependencies": {
+    "cash-dom": "^8.1.0"
+  }
+}

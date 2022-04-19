@@ -1,0 +1,18 @@
+# build artefacts
+dist
+src/includes/min/
+
+# tests reports
+reports
+# npm related files
+node_modules
+
+# OS related files
+.DS_Store
+Thumbs.db
+
+# Other tooling, vim, WSL, VSCode
+*.bak
+*.swp
+*:Zone.Identifier
+*.code-workspace

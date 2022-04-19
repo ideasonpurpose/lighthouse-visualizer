@@ -1,0 +1,40 @@
+/**
+ * Utility classes
+ */
+
+.a11y {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(1px);
+  border: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  background: #000;
+  color: #fff;
+}
+
+.alignfull {
+  width: auto;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+.extends-bg {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: -50vw;
+    bottom: 0;
+    left: -50vw;
+    background: inherit;
+  }
+}

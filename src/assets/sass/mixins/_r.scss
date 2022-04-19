@@ -1,0 +1,62 @@
+/**
+ * _r is a responsive utility class generator
+
+  Usage:
+  @include _r(className, (foo: bar, qux: quux))
+
+  Example:
+  @include _r(
+    "hide",
+    (
+      display: none,
+      visibility: hidden,
+    )
+  );
+
+  Output:
+  .hide {
+    display: none;
+    visibility: hidden;
+  }
+
+  @media (min-width: 768px) {
+    .md\:hide {
+      display: none;
+      visibility: hidden;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .lg\:hide {
+      display: none;
+      visibility: hidden;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .xl\:hide {
+      display: none;
+      visibility: hidden;
+    }
+  }
+*/
+
+@mixin _r($baseClass, $map) {
+  @each $breakpoint, $size in $site-breakpoints {
+    @include mq($breakpoint) {
+      $index: index($site-breakpoints, $breakpoint $size);
+
+      // ignore first breakpoint class, e.g. .col instead of .col-sm
+      $breakpointClassName: "";
+      @if ($index > 1) {
+        $breakpointClassName: "#{$breakpoint}\\:";
+      }
+
+      .#{$breakpointClassName}#{$baseClass} {
+        @each $key, $value in $map {
+          #{$key}: #{$value};
+        }
+      }
+    }
+  }
+}

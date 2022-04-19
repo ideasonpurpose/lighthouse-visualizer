@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" class="loading">
+  <head>
+    {% include "styles.njk" %}
+  </head>
+
+  <body>
+    <main aria-label="Main Content">
+      {{ content | safe }}
+    </main>
+
+    {% include "scripts.njk" %}
+  </body>
+</html>

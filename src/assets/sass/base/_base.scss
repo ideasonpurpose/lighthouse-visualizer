@@ -1,0 +1,25 @@
+/**
+ * Base
+ */
+
+body, html {
+  height: 100%; // this makes the sticky footer work
+}
+
+body {
+  @extend .sans;
+  font-size: 16px;
+  line-height: 1.4;
+  width: 100%;
+  overflow-x: hidden;
+
+  // Prevent <body> scrolling while the hamburger menu is open
+  @include mq(lg, "max") {
+    &.menu-open {
+      position: fixed;
+      left: 0;
+      right: 0;
+      overflow: hidden;
+    }
+  }
+}

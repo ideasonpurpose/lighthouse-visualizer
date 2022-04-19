@@ -1,0 +1,45 @@
+---
+layout: base.njk
+sitemappriority: "1.0"
+title: "11ty Boilerplate Home"
+meta_title: ""
+meta_description: ""
+meta_image: ""
+---
+
+{% raw %}
+  <div class="wrapper" id="app">
+
+    <label class="upload">
+      <span>Import</span>
+      <input type="file" @change="loadFile" accept="application/JSON">
+    </label>
+
+    <table>
+      <thead>
+        <tr>
+          <th>URL</th>
+          <th>Accessibility</th>
+          <th>Best Practices</th>
+          <th>Performance</th>
+          <th>SEO</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="(prop, idx) in data">
+          <td>
+            <a target="_blank" :href="prop.url">
+              {{ prop.url.split('/')[prop.url.split('/').length-2] }}
+            </td>
+            <td v-for="(p, idx) in props">
+              {{ prop.detail[p] }}
+            </td>
+            <td>
+              <strong>{{ score(prop) }}</strong>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  {% endraw %}

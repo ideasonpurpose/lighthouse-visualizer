@@ -1,0 +1,10 @@
+{%- if global.environment == "production" -%}
+  {# 
+    Production-only styles (minified)
+    The comment below gets replaced by PurgeCSS in the build process
+  #}
+  <!-- INLINE CSS-->
+{%- else -%}
+  {# Dev-only styles (unminified) #}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}?{{ global.buildtime }}"/>
+{%- endif -%}

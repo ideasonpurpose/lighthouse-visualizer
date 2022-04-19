@@ -1,0 +1,23 @@
+@mixin underline($color: currentColor, $height: 2px, $width: 100%, $offset: 0) {
+  background-image: linear-gradient($color, $color);
+  background-repeat: no-repeat;
+  background-position: $offset 100%;
+  background-size: 0 $height;
+  transition: all 0.25s;
+
+  &:hover {
+    background-size: $width $height;
+  }
+}
+
+@mixin reverse_underline($color: currentColor, $height: 2px, $width: 100%) {
+  background-image: linear-gradient($color, $color);
+  background-repeat: no-repeat;
+  background-position: center 100%;
+  background-size: $width $height;
+  transition: all 0.25s;
+
+  &:hover {
+    background-size: 0 $height;
+  }
+}
