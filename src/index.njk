@@ -29,14 +29,13 @@ meta_image: ""
       <tbody>
         <tr v-for="(prop, idx) in data">
           <td>
-            <a target="_blank" :href="prop.url">
-              {{ prop.url.split('/')[prop.url.split('/').length-2] }}
+              {{ prop.url.split('/')[prop.url.split('/').length-1] || "index.html" }}
             </td>
             <td v-for="(p, idx) in props">
-              {{ prop.detail[p] }}
+              {{ prop.detail[p] || "-" }}
             </td>
             <td>
-              <strong>{{ score(prop) }}</strong>
+              <strong>{{ score(prop) || "-" }}</strong>
             </td>
           </tr>
         </tbody>
